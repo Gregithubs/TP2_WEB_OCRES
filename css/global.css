@@ -5,6 +5,36 @@
     font-weight: bold;
 }
 
+@media only screen and (max-width:300px) {
+    .search {
+        display:none;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .share {
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .body {
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .body {
+        font-size: medium;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .body {
+        font-size: small;
+    }
+}
+
 * { 
     font-family: 'My Lucida', Console;
 }
